@@ -1,0 +1,33 @@
+{
+  "name": "@strongforceengineering/CheapskateUI",
+  "version": "0.0.1",
+  "description": "A component UI library for developers who need it things pretty without a penny.",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "repository": "https://github.com/StrongForceEngineering/CheapskateUI.git",
+  "author": "Joshua Walton",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@types/react": "^17.0.34",
+    "eslint": "^8.32.0",
+    "react": "^17.0.2",
+    "rollup": "^2.60.0",
+    "rollup-plugin-dts": "^4.0.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.4.4"
+  },
+  "main": "dist/cjs/index.ts",
+  "module": "dist/esm/index.ts",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@headlessui/react": "^1.7.7"
+  }
+}
