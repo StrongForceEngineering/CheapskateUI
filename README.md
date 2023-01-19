@@ -10,6 +10,8 @@ This repo does not contain a development preview server. To preview the changes 
 
 Remove the brackets when you replace with the proper path to CheapskateUI on your local disk
 
+Once you have CheapskateUI linked with your current project, you should see it in your current project's package.json. Now, you just need to import that components you are developing to see your changes.
+
 ## Future
 
 If CheapskateUI is developed out enough to provide anything more than other UI kits that exist in the React ecosystem, it is our intention to package it and serve it through NPM.
